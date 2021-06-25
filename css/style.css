@@ -124,3 +124,86 @@ footer :hover{
   width: 20%;
   padding: 4%;
 }
+
+#unotres h3 {
+
+  font-size: 175%;
+  line-height: 155%;
+  font-weight: 500px;
+  color: black;
+  text-align: center;
+}
+
+.unotres{
+
+  width: 31.5%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+  .icon-wrapp i {
+    text-align: center;
+    color: black;
+    font-size: 450%;
+    padding: 20%;
+  }
+
+.derecha {
+  width: 45%;
+  float: left;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.izquierda {
+  width: 45%;
+  float: right;
+  padding: 5px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px)  {
+
+p {
+  font-size: 110%;
+}
+
+h3 {
+  font-size: 130%;
+}
+
+  header{
+    height: 80px;
+    position: relative;
+  }
+  header #logo{
+    margin: 15px 0 20px -25px;
+  }
+
+  #menu-icono{
+    display: inline-block;
+  }
+
+  nav:hover ul{
+    display: block;
+  }
+nav ul, nav:active ul{
+display: none;
+z-index: 1000;
+position: absolute;
+padding: 20px;
+background: #f5f5f5;
+border: 1px solid #a5bdcd;
+right: 20px;
+width: 30%;
+opacity: .95%;
+}
+
+.unotres {
+  float: center;
+  width: 100%;
+}
+
+}
